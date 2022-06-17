@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 
 /* Default Controller */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'home';
 
 /* Dashboard Pages */
 $route['dashboard'] = 'admin/dashboard/dashboard';
