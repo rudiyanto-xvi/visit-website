@@ -40,61 +40,9 @@ https://templatemo.com/tm-545-finance-business
     </div>
     <!-- ***** Preloader End ***** -->
 
-    <!-- Header -->
-    <div class="sub-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <ul class="left-info">
-                        <li><a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a></li>
-                        <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="right-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <header class="">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <h2>Finance Business</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#top">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Our Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="one-page.html">One Page</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- Include Header Navbar -->
+    <?php $this->load->view('user/template/v_navbar') ?>
+    <!-- /Include Header Navbar -->
 
     <!-- Page Content -->
     <!-- Banner Starts Here -->
@@ -165,7 +113,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="assets/images/service_01.jpg" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_01.jpg'?>" alt="">
                         <div class="down-content">
                             <h4>Digital Currency</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -175,7 +123,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="assets/images/service_02.jpg" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_02.jpg'?>" alt="">
                         <div class="down-content">
                             <h4>Market Analysis</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -185,7 +133,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="assets/images/service_03.jpg" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_03.jpg'?>" alt="">
                         <div class="down-content">
                             <h4>Historical Data</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -250,7 +198,7 @@ https://templatemo.com/tm-545-finance-business
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="left-image">
-                                    <img src="assets/images/more-info.jpg" alt="">
+                                    <img src="<?php echo base_url() . 'assets_user/images/more-info.jpg'?>" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6 align-self-center">
@@ -375,23 +323,23 @@ https://templatemo.com/tm-545-finance-business
                     <div class="owl-partners owl-carousel">
 
                         <div class="partner-item">
-                            <img src="assets/images/client-01.png" title="1" alt="1">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="1" alt="1">
                         </div>
 
                         <div class="partner-item">
-                            <img src="assets/images/client-01.png" title="2" alt="2">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="2" alt="2">
                         </div>
 
                         <div class="partner-item">
-                            <img src="assets/images/client-01.png" title="3" alt="3">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="3" alt="3">
                         </div>
 
                         <div class="partner-item">
-                            <img src="assets/images/client-01.png" title="4" alt="4">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="4" alt="4">
                         </div>
 
                         <div class="partner-item">
-                            <img src="assets/images/client-01.png" title="5" alt="5">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="5" alt="5">
                         </div>
 
                     </div>

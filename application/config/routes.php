@@ -50,9 +50,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
+/* ====================================Website================================================ */
 /* Default Controller */
 $route['default_controller'] = 'home';
 
+/* About Pages */
+$route['user_about'] = 'user/about/about';
+
+/* Contact Pages */
+$route['user_contact'] = 'user/contact/contact';
+
+/* Services Pages */
+$route['user_services'] = 'user/services/services';
+
+/* ====================================Administrator================================================ */
 /* Dashboard Pages */
 $route['dashboard'] = 'admin/dashboard/dashboard';
 $route['dashboard2'] = 'admin/dashboard/dashboard2';
