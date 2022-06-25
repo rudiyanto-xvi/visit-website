@@ -10,15 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <title><?= $title; ?></title>
-    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/dist/img/AdminLTELogos.png' ?>">
+    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/dist/img/AdminLTELogoss.png' ?>">
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo base_url() . 'assets_user/vendor/bootstrap/css/bootstrap.min.css'?>" rel="stylesheet">
+    <link href="<?php echo base_url() . 'assets_user/vendor/bootstrap/css/bootstrap.min.css' ?>" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/fontawesome.css'?>">
-    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/templatemo-finance-business.css'?>">
-    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/owl.css'?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/fontawesome.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/templatemo-finance-business.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'assets_user/css/owl.css' ?>">
     <!--
 
 Finance Business TemplateMo
@@ -55,7 +55,7 @@ https://templatemo.com/tm-545-finance-business
                         <h6>we are ready to help you</h6>
                         <h4>Financial Analysis<br>&amp; Consulting</h4>
                         <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. This is a multiple-page version with different HTML pages. <a href="one-page.html">One-page version</a> is available as of 2021 February.</p>
-                        <a href="contact.html" class="filled-button">contact us</a>
+                        <a href="user_contact" class="filled-button">contact us</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ https://templatemo.com/tm-545-finance-business
                     <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
                 </div>
                 <div class="col-md-4">
-                    <a href="contact.html" class="border-button">Contact Us</a>
+                    <a href="user_contact" class="border-button">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="<?php echo base_url() . 'assets_user/images/service_01.jpg'?>" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_01.jpg' ?>" alt="">
                         <div class="down-content">
                             <h4>Digital Currency</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -123,7 +123,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="<?php echo base_url() . 'assets_user/images/service_02.jpg'?>" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_02.jpg' ?>" alt="">
                         <div class="down-content">
                             <h4>Market Analysis</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -133,7 +133,7 @@ https://templatemo.com/tm-545-finance-business
                 </div>
                 <div class="col-md-4">
                     <div class="service-item">
-                        <img src="<?php echo base_url() . 'assets_user/images/service_03.jpg'?>" alt="">
+                        <img src="<?php echo base_url() . 'assets_user/images/service_03.jpg' ?>" alt="">
                         <div class="down-content">
                             <h4>Historical Data</h4>
                             <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -198,7 +198,7 @@ https://templatemo.com/tm-545-finance-business
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="left-image">
-                                    <img src="<?php echo base_url() . 'assets_user/images/more-info.jpg'?>" alt="">
+                                    <img src="<?php echo base_url() . 'assets_user/images/more-info.jpg' ?>" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6 align-self-center">
@@ -323,23 +323,23 @@ https://templatemo.com/tm-545-finance-business
                     <div class="owl-partners owl-carousel">
 
                         <div class="partner-item">
-                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="1" alt="1">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png' ?>" title="1" alt="1">
                         </div>
 
                         <div class="partner-item">
-                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="2" alt="2">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png' ?>" title="2" alt="2">
                         </div>
 
                         <div class="partner-item">
-                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="3" alt="3">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png' ?>" title="3" alt="3">
                         </div>
 
                         <div class="partner-item">
-                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="4" alt="4">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png' ?>" title="4" alt="4">
                         </div>
 
                         <div class="partner-item">
-                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png'?>" title="5" alt="5">
+                            <img src="<?php echo base_url() . 'assets_user/images/client-01.png' ?>" title="5" alt="5">
                         </div>
 
                     </div>
@@ -429,14 +429,14 @@ https://templatemo.com/tm-545-finance-business
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="<?php echo base_url() . 'assets_user/vendor/jquery/jquery.min.js'?>"></script>
-    <script src="<?php echo base_url() . 'assets_user/vendor/bootstrap/js/bootstrap.bundle.min.js'?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/vendor/jquery/jquery.min.js' ?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/vendor/bootstrap/js/bootstrap.bundle.min.js' ?>"></script>
 
     <!-- Additional Scripts -->
-    <script src="<?php echo base_url() . 'assets_user/js/custom.js'?>"></script>
-    <script src="<?php echo base_url() . 'assets_user/js/owl.js'?>"></script>
-    <script src="<?php echo base_url() . 'assets_user/js/slick.js'?>"></script>
-    <script src="<?php echo base_url() . 'assets_user/js/accordions.js'?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/js/custom.js' ?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/js/owl.js' ?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/js/slick.js' ?>"></script>
+    <script src="<?php echo base_url() . 'assets_user/js/accordions.js' ?>"></script>
 
     <script language="text/Javascript">
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
